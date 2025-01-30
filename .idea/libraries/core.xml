@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="core">
+    <CLASSES>
+      <root url="jar:///Applications/Processing.app/Contents/Java/core/library/core.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="https://processing.github.io/processing-javadocs/core/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
