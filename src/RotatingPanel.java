@@ -36,6 +36,7 @@ public class RotatingPanel extends Panel{
             setX(x);
             setY(y);
             Main.app.noTint();
+            Main.app.imageMode(Main.app.CORNER);
             Main.app.pop();
         }
     }
