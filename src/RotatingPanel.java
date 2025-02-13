@@ -10,7 +10,7 @@ public class RotatingPanel extends Panel{
     }
 
     public void handleMouseClicked(int mX, int mY){
-        if (mX > getX() && mX < getX()+getW() && mY > getY() && mY < getY() + getH()) {
+        if (mX > (getX() - getW()) && mX < getX() && mY > getY() && mY < getY() + getH()) {
             rotating = !rotating;
         }
     }
@@ -23,7 +23,6 @@ public class RotatingPanel extends Panel{
             Main.app.noTint();
         }else{
             Main.app.push();
-            Main.app.imageMode(Main.app.CENTER);
             Main.app.tint(255, 162, 56, 1000);
             int x = getX();
             int y = getY();

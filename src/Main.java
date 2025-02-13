@@ -64,8 +64,9 @@ public class Main extends PApplet {
 
     public void mouseClicked(){
         for (Panel panel: panels) {
+            if (panel instanceof RotatingPanel) {
                 panel.handleMouseClicked(mouseX, mouseY);
-
+            }
         }
     }
 
